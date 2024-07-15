@@ -98,6 +98,8 @@ return [
     'cipher' => 'AES-256-CBC',
 
     'key' => env('APP_KEY'),
+    'log_level' => env('APP_LOG_LEVEL', 'debug'),
+
 
     'previous_keys' => [
         ...array_filter(
